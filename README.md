@@ -7,11 +7,11 @@ The server-side application is hosted on the following website: [covidapiss.site
 # Usage
 To use the CXR server, send a POST request to the server's API endpoint with a JSON payload containing the image's filename, which is stored on the S3 bucket. The server will respond with the requested CXR image in a binary format.
 
-`
+```python
 import requests
 import json
 
-url = 'http://covidxapiss.site/cxr_image'
+url = 'http://covidxapiss.site/'
 
 filename = 'patient001.jpg'
 
@@ -25,7 +25,7 @@ if response.status_code == 200:
     
 else:
     print('Failed to get CXR image from server.')
-`
+```
 # Deployement Diagram
  ![Architecture diagram for deployement](https://covidapiss.s3.jp-tok.cloud-object-storage.appdomain.cloud/Untitled%20Diagram.drawio%20(1).png) 
 
