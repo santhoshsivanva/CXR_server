@@ -5,7 +5,7 @@ This is a server-side application for serving chest X-ray (CXR) images for machi
 The server-side application is hosted on the following website: [covidapiss.site](https://covidapiss.site/)
 
 # Usage
-To use the CXR server, send a POST request to the server's API endpoint with a JSON payload containing the image's filename, which is stored on the S3 bucket. The server will respond with the requested CXR image in a binary format.
+To use the CXR server, send a POST request to the server's API endpoint with a JSON payload containing the image's filename, which is stored on the S3 bucket. The server will respond like covid or not.
 
 ```python
 import requests
@@ -20,7 +20,7 @@ data = {'filename': filename}
 response = requests.post(url, json=data)
 
 if response.status_code == 200:
-    cxr_image = response.content
+    cxr_detect = response.text
     # process the CXR image as required
     
 else:
