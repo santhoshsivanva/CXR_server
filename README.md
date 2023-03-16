@@ -1,5 +1,5 @@
 # CXR Server
-This is a server-side application for serving chest X-ray (CXR) images for machine learning model development and testing. The application is built using Flask, a popular Python web framework, and is hosted on an EC2 AWS instance. The CXR images are stored on an S3 bucket, which is accessed through the application.
+The CXR Server is a server-side application designed to process chest X-ray images and detect signs of COVID-19 using machine learning. The application is built using Flask, a popular Python web framework, and is hosted on an EC2 AWS instance. The CXR images are stored in an S3 bucket, which is accessed through the application.
 
 # API Website
 The server-side application is hosted on the following website: [covidapiss.site](https://covidapiss.site/)
