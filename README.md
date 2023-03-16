@@ -33,7 +33,7 @@ Using densenet121 with pepx design architecture.
 Our team is currently working on a research paper 
 
 # Deployement Diagram
- ![Architecture diagram for deployement](https://covidapiss.s3.jp-tok.cloud-object-storage.appdomain.cloud/Untitled%20Diagram.drawio%20(1).png) 
+ ![Architecture diagram for deployement](https://covidapiss.s3.jp-tok.cloud-object-storage.appdomain.cloud/Untitled%20Diagram.drawio%20(2).png) 
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
