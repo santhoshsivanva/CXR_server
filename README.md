@@ -28,7 +28,7 @@ else:
 ```
 
 # Our deep learning Model
-Using densenet121 with pepx design architecture.
+Using densenet121 with PEPX design architecture.
 
 Our team is currently working on a research paper 
 
